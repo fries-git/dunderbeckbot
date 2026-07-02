@@ -20,6 +20,6 @@ async def on_message(message):
         return
     content = message.content.lower()
     if "what" in content and "dunderbeck" in content:
-        await message.channel.send("[Dunderbeck](https://store.steampowered.com/app/2477750/Dunderbeck/) is the newest game by RustLTD that's an inventory management auto-battler!")
+        await message.channel.send("[Dunderbeck](https://store.steampowered.com/app/2477750/Dunderbeck/) is an upcoming frantic inventory-management auto-battler by RUST LTD!")
 
 client.run(TOKEN)
